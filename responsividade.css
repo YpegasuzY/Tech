@@ -1,0 +1,216 @@
+@media screen and (max-width: 400px) {
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    header {
+      background: linear-gradient(90deg, rgba(151, 157, 172, 1) 0%, rgba(51, 65, 92, 1) 76%, rgba(0, 24, 69, 1) 100%);
+      padding: 2%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap; /* Allow items to wrap if they exceed the width */
+    }
+  
+    header img {
+      width: 40%; /* Adjust image width as needed */
+      margin-left: 20px;
+    }
+  
+    .divImgHeader {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      flex-wrap: wrap; /* Allow items to wrap */
+    }
+  
+    .log_news {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .fa {
+      font-size: 1.2rem;
+      color: #fff;
+    }
+  
+    .nav-link {
+      color: #fff;
+    }
+  
+    input[type=text],
+    input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+  
+    .btnHeader {
+      background: rgb(151, 157, 172);
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+  
+    button:hover {
+      opacity: 0.8;
+    }
+  
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+
+
+
+    }
+    .s3{
+        display: block;
+    }
+
+    .s3 div{
+      height: 30em;
+        
+    }
+
+    .bordaDiv {
+        display: flex;
+    }
+
+    #deepmind {
+     background-size: 100vw;
+     cursor: pointer;
+    }
+
+     #deepmind h2  {
+     margin-top: 10rem;
+     color: #fff;
+     background-color: grey;
+ 
+      }
+
+      #ethereum {
+        background-size: 100vw;
+        cursor: pointer;
+       }
+   
+        #ethereum h2  {
+        margin-top: 10rem;
+        color: #fff;
+        background-color: rgb(78, 76, 78);
+    
+         }
+
+
+      #lab {
+        background-size: 100vw;
+        cursor: pointer;
+       }
+   
+        #lab h2  {
+        margin-top: 10rem;
+        color: #524f4f;
+        background-color: rgb(241, 241, 240);
+    
+         }
+
+
+   
+      #ImpossibleFoods {
+        background-size: 100vw;
+        cursor: pointer;
+       }
+   
+        #ImpossibleFoods h2  {
+        margin-top: 10rem;
+        color: #ac0505;
+        background-color: rgb(245, 245, 245);
+    
+         }
+
+      #Nubank {
+        background-size: 100vw;
+        cursor: pointer;
+    
+       
+       }
+   
+        #Nubank h2  {
+        margin-top: 10rem;
+        color: #ffffff;
+        background-color: rgba(154, 17, 172, 0.075);
+    
+         }
+
+         .carrousel {
+          width: 550vw;/* Define a largura do carrossel */
+          overflow: hidden;/* Oculta o estouro para que os itens do carrossel não saiam da área visível */
+           margin: 0 auto;/* Centraliza o carrossel horizontalmente */
+           position: relative;/* Posiciona o carrossel relativamente para que os botões "Anterior" e "Próximo" possam ser posicionados absolutamente em relação a ele */
+        }
+        
+        
+        .carrousel-inner {
+          display: flex;/* Define o layout dos itens do carrossel como flexbox */
+          transition: transform 0.6s ease;/* Adiciona uma transição suave ao movimento dos itens do carrossel */
+          margin: 0rem;
+        }
+        
+        
+        .carrousel-item {
+          width: 30%;/* Define a largura de cada item do carrossel */
+          height: 90vh;
+          flex: 0 0 auto;/* Define o tamanho flexível dos itens do carrossel para que eles se ajustem ao espaço disponível */
+          margin: 10px;/* Adiciona margem aos itens do carrossel */
+          background-color: #ccc;/* Define a cor de fundo dos itens do carrossel */
+          text-align: center;/* Centraliza o texto dentro dos itens do carrossel */
+          
+        }
+        
+        .carrousel-item:hover{
+          border: solid 1px black;
+          opacity: 95%;
+          cursor: pointer;
+        }
+        
+        .carrousel-item p {
+        text-align: justify;
+        padding: 10px;
+        }
+
+   .carrousel-item{
+    height: 100vw;
+    width: 100vw;
+   }
+      
+    
+  }
+
+
+  @media screen and (min-width: 1920px){
+
+    .carrousel-item{
+      height: 60vh;
+    }
+
+.carrousel-item img{
+  width: 100%;
+  height: 60%;
+}
+
+
+
+
+  }
+  
